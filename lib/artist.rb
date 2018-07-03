@@ -34,6 +34,7 @@ class Artist
   end
   
   def self.print_songs
+    #"Dirty Diana\nBillie Jean\n"
     @@all.each do |artist| 
   end
   
