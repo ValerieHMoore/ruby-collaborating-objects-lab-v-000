@@ -10,7 +10,7 @@ class MP3Importer
   end
 
   def files
-    array = Dir.glob("#{path}/*.mp3").collect{|file| binding.pry}
+    array = Dir.glob("#{path}/*.mp3").collect{|file| file.split(path+"/")[1]}
   end
 
 end
