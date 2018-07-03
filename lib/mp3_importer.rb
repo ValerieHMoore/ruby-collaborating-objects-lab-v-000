@@ -6,7 +6,7 @@ class MP3Importer
   #   list_of_filenames.each{ |filename| Song.new_by_filename(filename) }
   # end
   def initialize(path)
-    path = self.new
+    @path = path
   end
 
 end
