@@ -11,6 +11,7 @@ class MP3Importer
 
   def files
     array = Dir.glob("#{path}/*.mp3")
+    binding.pry
   end
 
 end
