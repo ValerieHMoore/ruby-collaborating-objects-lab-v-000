@@ -33,4 +33,8 @@ class Artist
     end
   end
   
+  def self.print_songs
+    
+  end
+  
 end
