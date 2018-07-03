@@ -31,16 +31,6 @@ class Artist
       new_object = self.new(name)
       new_object.save
     end
-    #binding.pry
   end
- 
- 
-# def name=(name)
-#     if (self.artist.nil?)
-#       self.artist = Artist.new(name)
-#     else
-#       self.artist.name = name
-#     end
-#   end
   
 end
